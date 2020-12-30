@@ -1,38 +1,57 @@
 .App {
   text-align: center;
+  font-family: 'Inter800';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Inter100';
+  src: local('Inter100'), url(./assets/Inter/Inter100.ttf) format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@font-face {
+  font-family: 'Inter200';
+  src: local('Inter200'), url(./assets/Inter/Inter200.ttf) format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+@font-face {
+  font-family: 'Inter300';
+  src: local('Inter300'), url(./assets/Inter/Inter300.ttf) format('truetype');
 }
 
-.App-link {
-  color: #61dafb;
+
+
+@font-face {
+  font-family: 'Inter400';
+  src: local('Inter400'), url(./assets/Inter/Inter400.ttf) format('truetype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+@font-face {
+  font-family: 'Inter500';
+  src: local('Inter500'), url(./assets/Inter/Inter500.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter600';
+  src: local('Inter600'), url(./assets/Inter/Inter600.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter700';
+  src: local('Inter700'), url(./assets/Inter/Inter700.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter800';
+  src: local('Inter800'), url(./assets/Inter/Inter800.ttf) format('truetype');
 }

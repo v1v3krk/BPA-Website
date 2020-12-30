@@ -1,0 +1,45 @@
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    .Menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #ff297b;
+        box-shadow: 0px 0px 70px #ff297b;
+
+        .MenuItems {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            place-items: top;
+            width: 100%;
+            max-width: 1000px;
+            padding: 10px 10px 40px;
+
+            .MenuItem {
+                color: white;
+                font-family: "Inter600";
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column;
+
+                .MenuIcon {
+                    font-size: 60px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    
+
+    p {
+        margin: 0px;
+    }
+}
