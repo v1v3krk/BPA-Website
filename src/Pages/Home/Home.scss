@@ -16,22 +16,45 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             place-items: top;
+            gap: 20px;
             width: 100%;
             max-width: 1000px;
-            padding: 10px 10px 40px;
+            padding: 10px 10px 30px;
+
+            @media only screen and (min-width: 1024px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 20px;
+            }
 
             .MenuItem {
+
                 color: white;
                 font-family: "Inter600";
-                font-size: 20px;
+                font-size: 16px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-flow: column;
+                cursor: pointer;
+                transition: all .15s ease-in-out;
+
+                @media only screen and (min-width: 1024px) {
+                    font-size: 20px;
+                }
 
                 .MenuIcon {
-                    font-size: 60px;
-                    margin-bottom: 20px;
+
+                    font-size: 30px;
+                    margin-bottom: 10px;
+
+                    @media only screen and (min-width: 1024px) {
+                        font-size: 60px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.08);
                 }
             }
         }
